@@ -1,0 +1,205 @@
+
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+h1 {
+    font-family: 'Nunito';
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav {
+    font-family: 'Lato';
+    font-weight: 300;
+    text-align: left;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+a {
+    color: rgb(220,124,111); /* peach pink */
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+.description p {
+    width: 60px;
+    text-align: center;
+     
+}
+
+.p1 {
+    background: rgb(220,124,111); /* peach pink */
+    color: white;
+}
+
+.p2 {
+    background: orange;
+    color: white;
+}
+
+.p3 {
+    background-color: coral;
+    color: white;
+}
+
+.currentpage {
+    font-weight: 700;
+}
+
+
+.title {
+    border-bottom: 1px solid #ccc;
+}
+
+#logo {
+    width: 60px;
+    padding-top: 10px;
+}
+
+.carousel-item img {
+    width: 300px;
+}
+
+.more p {
+    font-family: 'Lato';
+}
+
+span {
+    color: rgb(220,124,111);
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    #logo {
+        width: 30%;
+        margin: auto;
+    }
+    
+    body {
+        font-size: 15px;
+    }
+    
+    h1 {
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    
+    nav {
+        font-size: 20px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+    
+    .description p {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    #logo {
+        width: 100%;
+        margin: auto;
+    }
+    
+    body {
+        font-size: 18px;
+    }
+    
+    h1 {
+        padding-top: 65px;
+        font-size: 35px;
+        
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    .title {
+        padding-bottom: 10px;
+    }
+    
+    .description p {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        padding-top: 40px;
+    }
+    
+    .carousel {
+        padding-top: 30px;
+    }
+    
+    .more {
+        padding-top: 75px;
+    }
+
+}
+   
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    #logo {
+        width: 100%;
+        margin: auto;
+    }
+    
+    h1 {
+        padding-top: 90px;
+        font-size: 45px;
+    }
+    
+    nav {
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+    
+    img {
+    max-width: 100%;
+    }
+    
+    .description p {
+        width: 150px;
+        height: 150px;
+        padding-top: 60px;
+        font-size: 25px;
+    }
+    
+    .carousel-item img {
+    width: 500px;
+    }
+    
+    .carousel-item p {
+        padding-top: 30px;
+    }
+}
